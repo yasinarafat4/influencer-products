@@ -52,12 +52,13 @@ h2 {
 }
 .logo-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-top: 2px solid rgba(225, 215, 215, 0.98);
   border-bottom: 2px solid rgba(225, 215, 215, 0.98);
   height: 20%;
   width: 70%;
-  margin: 0 auto;
+  padding: 30px;
+  margin: 50px;
 }
 /* -----------------------
 Popular Collection styles
@@ -72,6 +73,7 @@ Popular Collection styles
 }
 .popular-collection-title {
   text-align: center;
+  margin: 30px;
 }
 .collection-items {
   width: 100%;
